@@ -1,0 +1,44 @@
+# Evita arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Pastas ocultas de config de editor
+.vscode/
+.idea/
+
+# Arquivos temporários e logs
+*.log
+*.tmp
+*.swp
+
+# Configs locais de Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+crash.log
+terraform.tfvars
+*.backup
+
+# Credenciais
+*.pem
+*.key
+*.crt
+
+# Ansible
+*.retry
+*.vault
+
+# Python (caso use scripts)
+__pycache__/
+*.pyc
+.env
+
+# Node (caso use alguma interface ou scripts JS)
+node_modules/
+
+# Docker
+*.env
+docker-compose.override.yml
+
+# GitHub Actions
+.env.local
