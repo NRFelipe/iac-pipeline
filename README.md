@@ -74,9 +74,15 @@ ansible-playbook -i ansible/hosts ansible/playbooks/docker-api.yaml
 ### 4. Deploy automático
 
 Push na branch principal dispara a pipeline via GitHub Actions.
-
-## 👨‍💻 Autor
-
-**Felipe Naliato Rodriguez**  
-[GitHub](https://github.com/NRFelipe)
-
+## ☁️ Rodando o Lab
+Vá até a aba Actions do GitHub
+Escolha o workflow Deploy Terraform to Azure
+Clique em Run workflow
+Selecione destroy = false para criar ou true para destruir
+## ✅ Resultado Esperado
+Infra criada automaticamente
+Configuração da VM com Ansible
+Swagger disponível na porta 8081
+Destruição simples e segura via botão do GitHub
+🧹 Dica Final
+Deixe o valor padrão do destroy como false e oriente sua equipe a mudar para true somente se quiser destruir tudo.
