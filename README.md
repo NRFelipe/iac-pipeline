@@ -27,10 +27,10 @@ Provisionar e configurar uma máquina virtual Linux (Ubuntu) na Azure com:
 - GitHub Actions
 - Azure
 - Linux / Bash scripting
-
+```
 ## 📁 Estrutura do projeto
 
-´´´
+
 .
 ├── .github/workflows/
 │   └── deploy.yml
@@ -43,7 +43,8 @@ Provisionar e configurar uma máquina virtual Linux (Ubuntu) na Azure com:
 ├── terraform.tfvars
 ├── backend.tf
 └── README.md
-´´´
+```
+
 
 ## 🚀 Como utilizar
 
